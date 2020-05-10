@@ -83,4 +83,13 @@ a:hover {
 
 @media (max-width: 405px) {
     .challenge { margin: 0; }
+    .container {
+        display: grid;
+        grid-template-rows: 20vh 1fr 100px;
+    }
+    header h1, header p {
+        text-align: center;
+        margin: 15px 0 0 0;
+        padding: 0;
+    }
 }
