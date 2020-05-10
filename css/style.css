@@ -76,3 +76,11 @@ a:hover {
 .links:hover {
     width: 30px;
 }
+
+@media (max-width: 550px) {
+    .challenge { margin: 0 10%; }
+}
+
+@media (max-width: 405px) {
+    .challenge { margin: 0; }
+}
