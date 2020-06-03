@@ -1,0 +1,45 @@
+header {
+  display: flex;
+  background-color: #669999;
+  color: white;
+
+  max-height: 100px;
+
+  padding: 0 3%;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  max-height: 100px;
+}
+
+.menu {
+  display: flex;
+
+  font-size: 20px;
+  font-family: "Anton", sans-serif;
+
+  width: 300px;
+  padding: 5%;
+
+  align-self: center;
+  justify-content: space-between;
+}
+
+.menu-icon {
+  padding: 5%;
+}
+
+@media (max-width: 670px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media (min-width: 670px), (max-width: 400px) {
+  .menu-icon {
+    display: none;
+  }
+}

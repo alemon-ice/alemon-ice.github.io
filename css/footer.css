@@ -1,0 +1,20 @@
+footer {
+  display: flex;
+  flex-direction: row;
+
+  background-color: #669999;
+  color: ghostwhite;
+
+  height: 50px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+footer .links {
+  margin: 0 20px;
+}
+
+footer .links:hover {
+  width: 30px;
+}

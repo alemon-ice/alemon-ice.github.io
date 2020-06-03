@@ -1,0 +1,60 @@
+main {
+  display: flex;
+  flex-direction: column;
+
+  min-height: calc(100vh - 190px);
+
+  padding: 20px 20%;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.about img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.about h1 {
+  margin: 0;
+}
+
+.abstract {
+  text-align: left;
+  max-height: 200px;
+  padding: 10px 20px;
+}
+
+.abstract p {
+  margin-bottom: 0;
+}
+
+hr {
+  margin: 0;
+  width: 100%;
+  border-top: 1px solid #669999;
+}
+
+.text {
+  text-align: left;
+}
+
+@media (max-width: 830px) {
+  main {
+    padding: 20px 15%;
+  }
+}
+
+@media (max-width: 710px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+  .abstract {
+    text-align: center;
+    padding: 20px;
+  }
+}

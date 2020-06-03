@@ -1,0 +1,25 @@
+html {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #e6f2ff;
+  text-align: center;
+}
+
+a {
+  color: #000;
+}
+
+header a,
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover,
+footer a:hover {
+  text-decoration: underline;
+}
