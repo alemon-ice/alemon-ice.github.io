@@ -38,7 +38,7 @@ header {
   }
 }
 
-@media (min-width: 670px), (max-width: 400px) {
+@media (min-width: 670px) {
   .menu-icon {
     display: none;
   }
