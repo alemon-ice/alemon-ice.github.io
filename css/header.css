@@ -30,6 +30,82 @@ header {
 
 .menu-icon {
   padding: 5%;
+
+  cursor: pointer;
+}
+
+.bar {
+  background-color: #527a7a;
+  height: 100%;
+  width: 40%;
+
+  position: absolute;
+  right: 0;
+
+  transition: all 0.2s linear;
+}
+
+.nav-bar {
+  font-size: 20px;
+  font-family: "Anton", sans-serif;
+
+  width: 90%;
+
+  padding: 5%;
+}
+
+.nav-bar div {
+  padding: 10% 20px;
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+}
+
+.bar hr {
+  margin: 0 20px;
+  width: calc(100% - 40px);
+  border-top: 1px solid #fff;
+}
+
+.social-medias {
+  font-size: 20px;
+  font-family: "Anton", sans-serif;
+
+  width: 100%;
+  position: absolute;
+
+  padding: 5%;
+}
+
+.social-medias div {
+  padding: 10px;
+}
+
+.social-medias a {
+  color: white;
+  text-decoration: none;
+}
+
+.follow {
+  color: white;
+}
+
+.mobile-menu {
+  display: flex;
+
+  font-size: 20px;
+  font-family: "Anton", sans-serif;
+
+  padding: 5% 0 0;
+
+  align-self: center;
+  justify-content: space-around;
+}
+
+.mobile-menu a {
+  text-decoration: none;
 }
 
 @media (max-width: 670px) {
@@ -38,8 +114,14 @@ header {
   }
 }
 
-@media (min-width: 670px) {
+@media (min-width: 670px), (max-width: 430px) {
   .menu-icon {
+    display: none;
+  }
+}
+
+@media (min-width: 430px) {
+  .mobile-menu {
     display: none;
   }
 }

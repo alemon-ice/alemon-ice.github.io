@@ -39,7 +39,7 @@ hr {
 }
 
 .text {
-  text-align: left;
+  text-align: justify;
 }
 
 @media (max-width: 830px) {
@@ -56,5 +56,17 @@ hr {
   .abstract {
     text-align: center;
     padding: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  main {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 325px) {
+  main {
+    padding: 5px;
   }
 }

@@ -28,8 +28,48 @@
           <div><a href="/articles.html">Artigos</a></div>
           <div><a href="/about.html">Sobre</a></div>
         </div>
-        <img class="menu-icon" src="./img/menu-icon.png" height="30px" />
+        <img
+          class="menu-icon"
+          src="./img/menu-icon.png"
+          height="30px"
+          onClick="showMenu(event)"
+        />
       </header>
+
+      <div class="mobile-menu">
+        <div><a href="/index.html">Home</a></div>
+        <div><a href="/articles.html">Artigos</a></div>
+        <div><a href="/about.html">Sobre</a></div>
+      </div>
+
+      <div id="bar" class="bar" hidden>
+        <nav class="nav-bar">
+          <div><a href="/index.html">Home</a></div>
+          <div><a href="/articles.html">Artigos</a></div>
+          <div><a href="/about.html">Sobre</a></div>
+        </nav>
+        <hr />
+        <nav class="social-medias">
+          <div class="follow">Siga:</div>
+          <div>
+            <a
+              href="https://www.instagram.com/alemon_dev/?hl=pt-br"
+              target="_blank"
+              >Instagram</a
+            >
+          </div>
+          <div>
+            <a
+              href="https://www.linkedin.com/in/rafael-dias-de-souza-562776169/"
+              target="_blank"
+              >Linkedin</a
+            >
+          </div>
+          <div>
+            <a href="https://github.com/alemon-ice" target="_blank">Github</a>
+          </div>
+        </nav>
+      </div>
 
       <main>
         <h1>Artigos</h1>
@@ -68,5 +108,17 @@
         </a>
       </footer>
     </div>
+    <script>
+      function showMenu(e) {
+        e.preventDefault();
+        let bar = document.getElementById("bar");
+
+        if (!bar.getAttribute("hidden")) {
+          bar.setAttribute("hidden", "hidden");
+        } else {
+          bar.removeAttribute("hidden");
+        }
+      }
+    </script>
   </body>
 </html>
