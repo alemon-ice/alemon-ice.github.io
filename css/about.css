@@ -10,7 +10,7 @@ main {
 .about {
   display: flex;
   flex-direction: row;
-  padding: 0px;
+  padding: 20px;
 }
 
 .about img {
