@@ -38,6 +38,10 @@ main hr {
 }
 
 @media (max-width: 600px) {
+  main {
+    padding: 10vh 10vw;
+  }
+  
   .profile {
     flex-direction: column;
     align-items: center;
