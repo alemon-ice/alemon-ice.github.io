@@ -1,0 +1,106 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #669999;
+
+  height: 10vh;
+
+  padding: 0 5vh;
+}
+
+.logo img {
+  max-height: 10vh;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+
+  height: 10vh;
+}
+
+.menu div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2.5vh;
+}
+
+.menu div:hover {
+  background-color: #588;
+
+  font-size: 20px;
+
+  padding: 1vh;
+  border-radius: 6px;
+
+  transition: 0.2s;
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 0;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+.menu-icon {
+  width: 5vh;
+  padding:2.5vh;
+}
+
+@media (min-width: 600px) {
+  .menu-icon {
+    display: none;
+  }
+}
+
+@keyframes transitionBar {
+  from { transform: translateX(1500px); }
+  to { transform: translateX(0px); }
+}
+
+.bar {
+  animation: transitionBar 0.5s;
+
+  background-color: #7AA;
+  width: 60vw;
+  height: 100vh;
+
+  margin-left: 40vw;
+}
+
+h4 {
+  color: #e6f2ff;
+  margin: 1vh 0;
+}
+
+.bar hr {
+  width: 40vw;
+}
+
+.bar .nav-bar, .social-medias {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  width: 60vw;
+}
+
+.nav-bar div + div,
+.social-medias div + div {
+  margin-top: 1vh;
+}
+
+.nav-bar div a,
+.social-medias div a {
+  color: #e6f2ff;
+  margin-top: 1vh;
+}

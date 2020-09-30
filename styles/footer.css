@@ -1,0 +1,19 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #669999;
+
+  height: 10vh;
+}
+
+footer a {
+  padding: 0 20px;
+}
+
+footer a img:hover {
+  width: 30px;
+  transition: 0.3s;
+}

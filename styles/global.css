@@ -1,16 +1,24 @@
 html {
+  width: 100vw;
   height: 100vh;
 }
 
 body {
-  margin: 0;
-  font-family: "Roboto", sans-serif;
   background-color: #e6f2ff;
-  text-align: center;
+  color: #121214;
+  font-family: "Roboto", sans-serif;
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+main {
+  min-height: 80vh;
 }
 
 a {
-  color: #000;
+  color: #121214;
 }
 
 header a,
