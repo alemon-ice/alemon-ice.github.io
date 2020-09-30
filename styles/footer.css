@@ -6,7 +6,11 @@ footer {
 
   background-color: #669999;
 
+  width: 100vw;
   height: 10vh;
+
+  position: absolute;
+  bottom: 0px;
 }
 
 footer a {
