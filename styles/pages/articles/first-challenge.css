@@ -1,0 +1,22 @@
+h1, .details h2 {
+  text-align: center;
+
+  margin-top: 0;
+}
+
+p, .details p {
+  text-align: center;
+}
+
+.details img {
+  max-width: 200px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 2.5% 5%;
+  border: 1px solid #669999;
+}

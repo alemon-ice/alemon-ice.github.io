@@ -1,0 +1,9 @@
+main {
+  padding: 10vh 20vw;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 10vh 10vw;
+  }
+}
