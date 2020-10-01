@@ -94,6 +94,11 @@ h4 {
   width: 60vw;
 }
 
+.nav-bar div a,
+.social-medias div a {
+  font-size: 1.1rem;
+}
+
 .nav-bar div + div,
 .social-medias div + div {
   margin-top: 1vh;
