@@ -15,6 +15,16 @@ body {
   margin: 0 0 10vh;
 }
 
+main {
+  padding: 10vh 20vw;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 10vh 10vw;
+  }
+}
+
 a {
   color: #121214;
 }
