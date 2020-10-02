@@ -18,12 +18,23 @@ p {
 
 .articles-list div {
   display: grid;
-  /* grid-template-areas: 'img img img . title title title title' 'img img img . author author author author' 'img img img . description description description description'; */
+  grid-template-areas: 'img img img . title title title title' 'img img img . author author author author' 'img img img . description description description description';
   grid-template-areas: 'title' 'author' 'description';
 }
 
 .article-item {
-  margin-top: 2rem;
+  background-color: #FFF;
+
+  margin: 2rem 0.5rem 0;
+  padding: 0.5rem;
+  
+  box-shadow: 1px 1px #669999;
+}
+
+.article-item:hover {
+  margin-top: 1.5rem;
+
+  transition: 0.2s;
 }
 
 .article-img {
@@ -55,8 +66,9 @@ p {
   grid-area: author;
 }
 
-.article-author a {
-  font-size: 0.9rem;
+.article-author a,
+.article-author p {
+  font-size: 0.8rem;
 
   margin: 0.5vw 0vw 0.5vw 1vw;
 }
