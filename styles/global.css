@@ -15,8 +15,19 @@ body {
   margin: 0 0 10vh;
 }
 
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 main {
-  padding: 10vh 20vw;
+animation: transitionIn 1s;
+
+padding: 10vh 20vw;
 }
 
 @media (max-width: 600px) {
