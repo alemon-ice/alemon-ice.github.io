@@ -1,3 +1,10 @@
+.details:hover {
+  transition: 1s;
+  box-shadow: 1px 1px #669999;
+  background-color: #FFF;
+  border-color: #FFF;
+}
+
 h1, .details h2 {
   text-align: center;
 
