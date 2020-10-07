@@ -57,3 +57,13 @@ main {
   flex-direction: row;
   justify-content: center;
 }
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .project-image, .project-description {
+    width: 100%;
+  }
+}
