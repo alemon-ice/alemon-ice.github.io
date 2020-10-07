@@ -32,6 +32,7 @@ header {
 .menu div:hover {
   background-color: #588;
 
+  color: #FFF;
   font-size: 20px;
 
   padding: 1vh;
