@@ -29,6 +29,10 @@ main hr {
   text-align: justify;
 }
 
+.message p {
+  font-size: 18px;
+}
+
 .message p + p {
   margin-top: 1rem;
 }

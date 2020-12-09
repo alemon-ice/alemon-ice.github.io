@@ -1,3 +1,7 @@
+main > p {
+  font-size: 18px;
+}
+
 .details:hover {
   transition: 1s;
   box-shadow: 1px 1px #669999;
