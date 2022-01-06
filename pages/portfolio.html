@@ -1,136 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
 
-  <link rel="stylesheet" href="../styles/global.css" />
-  <link rel="stylesheet" href="../styles/header.css" />
-  <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="../styles/pages/portfolio.css" />
+    <title>alemonDev - Portfólio</title>
+  </head>
 
-  <link rel="stylesheet" href="../styles/pages/portfolio.css" />
-  <title>alemonDev - Portfólio</title>
-</head>
+  <body>
+    <container>
+      <!-- Início Header -->
+      <header>
+        <!-- Logo -->
+        <a class="logo" href="../index.html">
+          <img src="../img/alemon-dev.png" alt="Logo de alemonDev" />
+        </a>
 
-<body>
-  <container>
-    <!-- Início Header -->
-    <header>
-      <!-- Logo -->
-      <a class="logo" href="../index.html">
-        <img src="../img/alemon-dev.png" alt="Logo de alemonDev" />
-      </a>
-
-      <!-- Menu -->
-      <div class="menu">
-        <div><a href="../index.html">Home</a></div>
-        <div><a href="./portfolio.html">Portfólio</a></div>
-        <div><a href="./articles.html">Artigos</a></div>
-        <div><a href="./about.html">Sobre</a></div>
-      </div>
-
-      <!-- Ícone de menu -->
-      <img class="menu-icon" src="../img/menu-icon.png" onClick="showMenu(event)" alt="Ícone de Menu" />
-
-    </header>
-    <!-- Fim Header -->
-
-    <!-- Menu mobile -->
-    <div id="bar" class="bar" hidden>
-      <nav class="nav-bar">
-        <h4 class="mobile-menu">Menu:</h4>
-        <div><a href="../index.html">Home</a></div>
-        <div><a href="./articles.html">Artigos</a></div>
-        <div><a href="./portfolio.html">Portfólio</a></div>
-        <div><a href="./about.html">Sobre</a></div>
-      </nav>
-      <hr />
-      <nav class="social-medias">
-        <h4 class="follow">Siga:</h4>
-        <div>
-          <a href="https://www.instagram.com/alemon_dev/?hl=pt-br" target="_blank">Instagram</a>
+        <!-- Menu -->
+        <div class="menu">
+          <div><a href="../index.html">Home</a></div>
+          <div><a href="./portfolio.html">Portfólio</a></div>
+          <div><a href="./articles.html">Artigos</a></div>
+          <div><a href="./about.html">Sobre</a></div>
         </div>
-        <div>
-          <a href="https://www.linkedin.com/in/rafael-dias-de-souza-562776169/" target="_blank">Linkedin</a>
-        </div>
-        <div>
-          <a href="https://github.com/alemon-ice" target="_blank">Github</a>
-        </div>
-      </nav>
-    </div>
-    <!-- Fim Menu mobile -->
 
-    <!-- CONTEÚDO PRINCIPAL DA PÁGINA -->
-    <main>
+        <!-- Ícone de menu -->
+        <img
+          class="menu-icon"
+          src="../img/menu-icon.png"
+          onClick="showMenu(event)"
+          alt="Ícone de Menu"
+        />
+      </header>
+      <!-- Fim Header -->
 
-      <h1>Portfólio de Projetos</h1>
-
-      <!-- Projeto I -->
-      <div class="project-item">
-        <h2>Projeto: cManager</h2>
-        <div class="container">
-          <div class="project-image">
-            <img src="../img/portfolio-projects/cmanager-landing.png" alt="cManager">
+      <!-- Menu mobile -->
+      <div id="bar" class="bar" hidden>
+        <nav class="nav-bar">
+          <h4 class="mobile-menu">Menu:</h4>
+          <div><a href="../index.html">Home</a></div>
+          <div><a href="./articles.html">Artigos</a></div>
+          <div><a href="./portfolio.html">Portfólio</a></div>
+          <div><a href="./about.html">Sobre</a></div>
+        </nav>
+        <hr />
+        <nav class="social-medias">
+          <h4 class="follow">Siga:</h4>
+          <div>
+            <a
+              href="https://www.instagram.com/alemon_dev/?hl=pt-br"
+              target="_blank"
+              >Instagram</a
+            >
           </div>
-          <div class="project-description">
-            <p>
-              O cManager é uma aplicação web de agendamentos que pode ser utilizado por qualquer pessoa.
-            </p>
-            <p>
-              Nele o usuário pode agendar tarefas/compromissos para qualquer data e ter uma visão geral de seus
-              agendamentos, além de poder editar ou excluir cada item.
-            </p>
-            <p>
-              A aplicação foi desenvolvida utilizando ReactJS no front-end e Node.js no back-end.
-            </p>
-            <p>Abaixo você pode acessar o repositório do projeto e um post onde descrevo o que me motivou a criar o
-              projeto.</p>
-            <div class="options">
-              <a href="https://github.com/alemon-ice/cManager" target="_blank">Repositório no Github</a>
-              &nbsp;&nbsp;&nbsp;
-              <a href="https://www.linkedin.com/posts/rafael-dias-de-souza-562776169_reactjs-nodejs-typescript-activity-6719252673243172864-gyUh"
-                target="_blank">
-                Post no Linkedin
-              </a>
+          <div>
+            <a
+              href="https://www.linkedin.com/in/rafael-dias-de-souza-562776169/"
+              target="_blank"
+              >Linkedin</a
+            >
+          </div>
+          <div>
+            <a href="https://github.com/alemon-ice" target="_blank">Github</a>
+          </div>
+        </nav>
+      </div>
+      <!-- Fim Menu mobile -->
+
+      <!-- CONTEÚDO PRINCIPAL DA PÁGINA -->
+      <main>
+        <h1>Portfólio de Projetos</h1>
+
+        <!-- Projeto I -->
+        <div class="project-item">
+          <h2>Projeto: cManager</h2>
+          <div class="container">
+            <div class="project-image">
+              <img
+                src="../img/portfolio-projects/cmanager-landing.png"
+                alt="cManager"
+              />
+            </div>
+            <div class="project-description">
+              <p>
+                O cManager é uma aplicação web de agendamentos que pode ser
+                utilizado por qualquer pessoa.
+              </p>
+              <p>
+                Nele o usuário pode agendar tarefas/compromissos para qualquer
+                data e ter uma visão geral de seus agendamentos, além de poder
+                editar ou excluir cada item.
+              </p>
+              <p>
+                A aplicação foi desenvolvida utilizando ReactJS no front-end e
+                Node.js no back-end.
+              </p>
+              <p>
+                Abaixo você pode acessar o repositório do projeto e um post onde
+                descrevo o que me motivou a criar o projeto.
+              </p>
+              <div class="options">
+                <a href="https://github.com/alemon-ice/cManager" target="_blank"
+                  >Repositório no Github</a
+                >
+                &nbsp;&nbsp;&nbsp;
+                <a
+                  href="https://www.linkedin.com/posts/rafael-dias-de-souza-562776169_reactjs-nodejs-typescript-activity-6719252673243172864-gyUh"
+                  target="_blank"
+                >
+                  Post no Linkedin
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- Fim Projeto I -->
+        <!-- Fim Projeto I -->
+      </main>
+      <!-- FIM DO CONTEÚDO PRINCIPAL DA PÁGINA -->
 
-    </main>
-    <!-- FIM DO CONTEÚDO PRINCIPAL DA PÁGINA -->
-
-    <!-- Início Footer -->
-    <footer>
-      <a href="https://github.com/alemon-ice" target="_blank">
-        <img src="https://image.flaticon.com/icons/svg/2111/2111432.svg" alt="Github" width="20px" />
-      </a>
-      <a href="https://www.linkedin.com/in/rafael-dias-de-souza-562776169/" target="_blank">
-        <img src="https://image.flaticon.com/icons/svg/254/254394.svg" alt="Linkedin" width="20px" />
-      </a>
-      <a href="https://www.instagram.com/alemon_dev/?hl=pt-br" target="_blank">
+      <!-- Início Footer -->
+      <footer>
+        <a href="https://github.com/alemon-ice" target="_blank">
+          <img
+            src="https://image.flaticon.com/icons/svg/2111/2111432.svg"
+            alt="Github"
+            width="20px"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/rafael-dias-de-souza-562776169/"
+          target="_blank"
+        >
+          <img
+            src="https://image.flaticon.com/icons/svg/254/254394.svg"
+            alt="Linkedin"
+            width="20px"
+          />
+        </a>
+        <!-- <a href="https://www.instagram.com/alemon_dev/?hl=pt-br" target="_blank">
         <img src="https://image.flaticon.com/icons/svg/1384/1384031.svg" alt="Instagram" width="20px" />
-      </a>
-    </footer>
-    <!-- Fim Footer -->
+      </a> -->
+      </footer>
+      <!-- Fim Footer -->
+    </container>
 
-  </container>
+    <script>
+      function showMenu(e) {
+        e.preventDefault();
+        let bar = document.getElementById('bar');
 
-  <script>
-    function showMenu(e) {
-      e.preventDefault();
-      let bar = document.getElementById("bar");
-
-      if (!bar.getAttribute("hidden")) {
-        bar.setAttribute("hidden", "hidden");
-      } else {
-        bar.removeAttribute("hidden");
+        if (!bar.getAttribute('hidden')) {
+          bar.setAttribute('hidden', 'hidden');
+        } else {
+          bar.removeAttribute('hidden');
+        }
       }
-    }
-  </script>
-</body>
-
+    </script>
+  </body>
 </html>

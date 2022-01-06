@@ -1,99 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <title>alemonDev - Example</title>
+  </head>
 
-  <link rel="stylesheet" href="../styles/global.css" />
-  <link rel="stylesheet" href="../styles/header.css" />
-  <link rel="stylesheet" href="../styles/footer.css" />
-  <title>alemonDev - Example</title>
-</head>
+  <body>
+    <container>
+      <!-- Início Header -->
+      <header>
+        <!-- Logo -->
+        <a class="logo" href="../index.html">
+          <img src="../img/alemon-dev.png" alt="Logo de alemonDev" />
+        </a>
 
-<body>
-  <container>
-    <!-- Início Header -->
-    <header>
-      <!-- Logo -->
-      <a class="logo" href="../index.html">
-        <img src="../img/alemon-dev.png" alt="Logo de alemonDev" />
-      </a>
+        <!-- Menu -->
+        <div class="menu">
+          <div><a href="../index.html">Home</a></div>
+          <div><a href="./portfolio.html">Portfólio</a></div>
+          <div><a href="./articles.html">Artigos</a></div>
+          <div><a href="./about.html">Sobre</a></div>
+        </div>
 
-      <!-- Menu -->
-      <div class="menu">
-        <div><a href="../index.html">Home</a></div>
-        <div><a href="./portfolio.html">Portfólio</a></div>
-        <div><a href="./articles.html">Artigos</a></div>
-        <div><a href="./about.html">Sobre</a></div>
+        <!-- Ícone de menu -->
+        <img
+          class="menu-icon"
+          src="../img/menu-icon.png"
+          onClick="showMenu(event)"
+          alt="Ícone de Menu"
+        />
+      </header>
+      <!-- Fim Header -->
+
+      <!-- Menu mobile -->
+      <div id="bar" class="bar" hidden>
+        <nav class="nav-bar">
+          <h4 class="mobile-menu">Menu:</h4>
+          <div><a href="../index.html">Home</a></div>
+          <div><a href="./articles.html">Artigos</a></div>
+          <div><a href="./portfolio.html">Portfólio</a></div>
+          <div><a href="./about.html">Sobre</a></div>
+        </nav>
+        <hr />
+        <nav class="social-medias">
+          <h4 class="follow">Siga:</h4>
+          <div>
+            <a
+              href="https://www.instagram.com/alemon_dev/?hl=pt-br"
+              target="_blank"
+              >Instagram</a
+            >
+          </div>
+          <div>
+            <a
+              href="https://www.linkedin.com/in/rafael-dias-de-souza-562776169/"
+              target="_blank"
+              >Linkedin</a
+            >
+          </div>
+          <div>
+            <a href="https://github.com/alemon-ice" target="_blank">Github</a>
+          </div>
+        </nav>
       </div>
+      <!-- Fim Menu mobile -->
 
-      <!-- Ícone de menu -->
-      <img class="menu-icon" src="../img/menu-icon.png" onClick="showMenu(event)" alt="Ícone de Menu" />
+      <!-- CONTEÚDO PRINCIPAL DA PÁGINA -->
+      <main>
+        <p style="text-align: center">Modelo de página</p>
+      </main>
+      <!-- FIM DO CONTEÚDO PRINCIPAL DA PÁGINA -->
 
-    </header>
-    <!-- Fim Header -->
-
-    <!-- Menu mobile -->
-    <div id="bar" class="bar" hidden>
-      <nav class="nav-bar">
-        <h4 class="mobile-menu">Menu:</h4>
-        <div><a href="../index.html">Home</a></div>
-        <div><a href="./articles.html">Artigos</a></div>
-        <div><a href="./portfolio.html">Portfólio</a></div>
-        <div><a href="./about.html">Sobre</a></div>
-      </nav>
-      <hr />
-      <nav class="social-medias">
-        <h4 class="follow">Siga:</h4>
-        <div>
-          <a href="https://www.instagram.com/alemon_dev/?hl=pt-br" target="_blank">Instagram</a>
-        </div>
-        <div>
-          <a href="https://www.linkedin.com/in/rafael-dias-de-souza-562776169/" target="_blank">Linkedin</a>
-        </div>
-        <div>
-          <a href="https://github.com/alemon-ice" target="_blank">Github</a>
-        </div>
-      </nav>
-    </div>
-    <!-- Fim Menu mobile -->
-
-    <!-- CONTEÚDO PRINCIPAL DA PÁGINA -->
-    <main>
-      <p style="text-align: center;">Modelo de página</p>
-    </main>
-    <!-- FIM DO CONTEÚDO PRINCIPAL DA PÁGINA -->
-
-    <!-- Início Footer -->
-    <footer>
-      <a href="https://github.com/alemon-ice" target="_blank">
-        <img src="https://image.flaticon.com/icons/svg/2111/2111432.svg" alt="Github" width="20px" />
-      </a>
-      <a href="https://www.linkedin.com/in/rafael-dias-de-souza-562776169/" target="_blank">
-        <img src="https://image.flaticon.com/icons/svg/254/254394.svg" alt="Linkedin" width="20px" />
-      </a>
-      <a href="https://www.instagram.com/alemon_dev/?hl=pt-br" target="_blank">
+      <!-- Início Footer -->
+      <footer>
+        <a href="https://github.com/alemon-ice" target="_blank">
+          <img
+            src="https://image.flaticon.com/icons/svg/2111/2111432.svg"
+            alt="Github"
+            width="20px"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/rafael-dias-de-souza-562776169/"
+          target="_blank"
+        >
+          <img
+            src="https://image.flaticon.com/icons/svg/254/254394.svg"
+            alt="Linkedin"
+            width="20px"
+          />
+        </a>
+        <!-- <a href="https://www.instagram.com/alemon_dev/?hl=pt-br" target="_blank">
         <img src="https://image.flaticon.com/icons/svg/1384/1384031.svg" alt="Instagram" width="20px" />
-      </a>
-    </footer>
-    <!-- Fim Footer -->
+      </a> -->
+      </footer>
+      <!-- Fim Footer -->
+    </container>
 
-  </container>
+    <script>
+      function showMenu(e) {
+        e.preventDefault();
+        let bar = document.getElementById('bar');
 
-  <script>
-    function showMenu(e) {
-      e.preventDefault();
-      let bar = document.getElementById("bar");
-
-      if (!bar.getAttribute("hidden")) {
-        bar.setAttribute("hidden", "hidden");
-      } else {
-        bar.removeAttribute("hidden");
+        if (!bar.getAttribute('hidden')) {
+          bar.setAttribute('hidden', 'hidden');
+        } else {
+          bar.removeAttribute('hidden');
+        }
       }
-    }
-  </script>
-</body>
-
+    </script>
+  </body>
 </html>
