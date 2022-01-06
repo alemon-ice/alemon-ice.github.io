@@ -8,8 +8,8 @@ main hr {
 }
 
 .profile img {
-  height: 30vh;
-  width: 30vh;
+  height: 25vh;
+  width: 25vh;
 
   margin: 0 5vw;
   border-radius: 100%;
@@ -18,11 +18,12 @@ main hr {
 .abstract {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 
-.abstract h1, p {
-  margin: 0;
+.abstract h1,
+p {
+  margin: 10px 0 0;
 }
 
 .message {
@@ -47,7 +48,8 @@ main hr {
     margin: 0 0 5vw 0;
   }
 
-  .abstract h1, p {
+  .abstract h1,
+  p {
     text-align: center;
     font-size: 1.1rem;
 

@@ -8,11 +8,13 @@ html {
 body {
   background-color: #e6f2ff;
   color: #121214;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 
   padding: 0;
   border: 0;
   margin: 0 0 10vh;
+
+  overflow-x: hidden;
 }
 
 @keyframes transitionIn {
@@ -25,9 +27,9 @@ body {
 }
 
 main {
-animation: transitionIn 1s;
+  animation: transitionIn 1s;
 
-padding: 10vh 20vw;
+  padding: 10vh 20vw;
 }
 
 @media (max-width: 600px) {
