@@ -22,7 +22,7 @@ main hr {
 }
 
 .abstract h1,
-p {
+p, li {
   margin: 10px 0 0;
 }
 
@@ -48,8 +48,7 @@ p {
     margin: 0 0 5vw 0;
   }
 
-  .abstract h1,
-  p {
+  .abstract h1, p, li {
     text-align: center;
     font-size: 1.1rem;
 

@@ -11,6 +11,14 @@ main, .profile {
   border-radius: 100%;
 }
 
+.profile h1, p {
+  margin: 1rem 0 0;
+}
+
+.profile p {
+  margin-bottom: 1rem;
+}
+
 .menu {
   display: flex;
   flex-direction: column;
