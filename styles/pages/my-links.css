@@ -19,31 +19,45 @@ main, .profile {
   margin-bottom: 1rem;
 }
 
-.menu {
+.links, .links > a {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 
   width: 100%;
   height: 100%;
 }
 
-.menu div {
+.links a {
   background-color: #669999;
 
-  width: 100%;
-  height: 2rem;
+  width: 50%;
 
+  padding: 1rem;
   margin: 0;
   border-radius: 6px;
 }
 
-.menu div + div {
+.links a + a {
   margin-top: 1rem;
 }
 
-.menu div a {
+.links a {
   text-decoration: none;
   color: #FFF;
   font-weight: bold;
+}
+
+@media(min-width: 600px) {
+  .links a:hover {
+    width: 51%;
+    background-color: #588;
+    transition: 0.2s;
+  }
+}
+
+@media(max-width: 600px) {
+  .links a {
+    width: 100%;
+  }
 }
