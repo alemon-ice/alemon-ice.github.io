@@ -2,6 +2,7 @@ main, .profile {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #F5F4FA;
 }
 
 .profile img {
@@ -13,10 +14,12 @@ main, .profile {
 
 .profile h1, p {
   margin: 1rem 0 0;
+  color: #1E1E1E;
 }
 
 .profile p {
   margin-bottom: 1rem;
+  color: #707070;
 }
 
 .links, .links > a {
@@ -29,7 +32,8 @@ main, .profile {
 }
 
 .links a {
-  background-color: #669999;
+  /* background-color: #669999; */
+  background-color: #2F4F4F;
 
   width: 50%;
 
@@ -51,7 +55,8 @@ main, .profile {
 @media(min-width: 600px) {
   .links a:hover {
     width: 51%;
-    background-color: #588;
+    /* background-color: #588; */
+    background-color: #2F4F4F;
     transition: 0.2s;
   }
 }
